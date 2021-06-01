@@ -7,12 +7,12 @@ for(var i=1; i<=100; i++){
 
     document.getElementById("output").innerHTML+="<br>"+ i;
     if(i % 3 === 0 && i % 5=== 0 ){
-        document.getElementById("output").innerHTML+="<br> FizzBuzz" ;
+        document.getElementById("output").innerHTML+=" FizzBuzz" ;
     }
     else if(i % 3 === 0){
-        document.getElementById("output").innerHTML+="<br> Fizz" ;
+        document.getElementById("output").innerHTML+=" Fizz" ;
     }
     else if(i % 5 === 0){
-        document.getElementById("output").innerHTML+="<br> Buzz" ;
+        document.getElementById("output").innerHTML+=" Buzz" ;
     }
 }
