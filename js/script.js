@@ -4,7 +4,6 @@
 //di 3 che di 5 stampi FizzBuzz.
 
 for(var i=1; i<=100; i++){
-
     document.getElementById("output").innerHTML+="<br>"+ i;
     if(i % 3 === 0 && i % 5=== 0 ){
         document.getElementById("output").innerHTML+=" FizzBuzz" ;
